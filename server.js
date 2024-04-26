@@ -1,5 +1,6 @@
 const net = require('net');
-const PORT = 21100;
+require("dotenv").config
+const PORT = process.env.PORT;
 
 let clients = {};
 
